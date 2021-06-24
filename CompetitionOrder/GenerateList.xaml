@@ -1,0 +1,25 @@
+﻿<Window x:Class="CompetitionOrder.GenerateList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GenerateList" Height="314.333" Width="566.334" Background="#FF363636" WindowStyle="ToolWindow">
+    <Grid Margin="0,0,2,-2">
+        <ListBox x:Name="Participant_lb" HorizontalAlignment="Left" Height="256" Margin="352,21,0,0" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="CompName_tb" HorizontalAlignment="Left" Height="23" Margin="126,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+        <TextBox x:Name="CompType_tb" HorizontalAlignment="Left" Height="23" Margin="126,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+        <TextBox x:Name="CompCategory_tb" HorizontalAlignment="Left" Height="23" Margin="126,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+        <Label Content="Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,75,0,0" Width="63" Height="23" Padding="5,3,5,0" Foreground="White"/>
+        <Label Content="Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,47,0,0" Width="63" Height="23" Padding="5,3,5,0" Foreground="White"/>
+        <Label Content="Competition name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,21,0,0" Width="114" Height="23" Padding="5,3,5,0" Foreground="White"/>
+        <Label x:Name="CompetitionName" Content="" HorizontalAlignment="Left" Margin="361,0,0,0" VerticalAlignment="Top" Padding="0" Width="137"/>
+        <TextBox x:Name="Name_tb" HorizontalAlignment="Left" Height="23" Margin="126,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+        <Label Content="Nume" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,145,0,0" Width="63" Height="23" Padding="5,3,5,0" Foreground="White"/>
+        <Label Content="Club" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,173,0,0" Width="63" Height="23" Padding="5,3,5,0" Foreground="White"/>
+        <Button x:Name="Add_btn" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="126,217,0,0" Click="Add_btn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="Remove_btn" Content="Remove" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="240,217,0,0" Click="Remove_btn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="GenerateList_btn" Content="Generate List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="241,255,0,0" Click="GenerateList_btn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="LoadList_btn" Content="Load List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="126,255,0,0" Click="LoadList_btn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="Create_btn" Content="Create List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="241,112,0,0" Click="Create_btn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="Club_tb" HorizontalAlignment="Left" Height="23" Margin="126,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<Window x:Class="CompetitionOrder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="281" Width="289" Background="#FF363636" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid Margin="0,0,2,6">
+        <Button x:Name="LoadFilebtn" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="29,14,0,0" Height="100" Click="LoadFilebtn_Click" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+        <Button x:Name="GenerateBtn" Content="Generate block" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="29,122,0,0" Height="100" BorderBrush="White" Background="{x:Null}" Foreground="White" Click="GenerateBtn_Click"/>
+        <Button x:Name="CreateBtn" Content="Create list" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="149,14,0,0" Height="100" BorderBrush="White" Background="{x:Null}" Foreground="White" Click="CreateBtn_Click"/>
+        <Button x:Name="SettingsBtn" Content="Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="149,122,0,0" Height="100" BorderBrush="White" Background="{x:Null}" Foreground="White"/>
+
+    </Grid>
+</Window>

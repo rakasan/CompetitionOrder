@@ -1,0 +1,14 @@
+﻿<Window x:Class="CompetitionOrder.GeneralForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GeneralForm" Height="398" Width="509" Background="#FF363636" WindowStyle="ToolWindow">
+    <Grid>
+
+        <StackPanel x:Name="StackPanel_main" HorizontalAlignment="Left" Height="347" Margin="10,10,0,0" VerticalAlignment="Top" Width="481">
+
+        </StackPanel>
+        <Button x:Name="SaveList_bt" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="416,337,0,0" BorderBrush="White" Background="{x:Null}" Foreground="White" Click="SaveList_bt_Click"/>
+
+
+    </Grid>
+</Window>
